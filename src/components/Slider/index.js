@@ -43,7 +43,7 @@ export default class CustomArrows extends Component {
       prevArrow: <SamplePrevArrow />,
       fade: true,
       autoplay: true,
-      autoplaySpeed: 2500,
+      autoplaySpeed: 3000,
       speed: 1000,
       pauseOnHover: true,
       swipeToSlide: true,

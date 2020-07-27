@@ -28,7 +28,7 @@ export const SlideImage = styled.img`
 export const SlideReview = styled.p `
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1em;
-  max-width: 500px;
+  max-width: 450px;
   text-align: center;
   color: #fafafa
 `
@@ -36,5 +36,6 @@ export const SlideReview = styled.p `
 export const Client = styled.strong`
   font-size: 2em;
   font-family: monospace;
+  text-align: center;
   color: #888888;
 `
