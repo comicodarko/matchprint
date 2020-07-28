@@ -5,6 +5,7 @@ import SlideBackground from '../../images/MPSlider2.jpg';
 export const SlideContainer = styled.div`
   width: 100%;
   margin: auto;
+  margin-bottom: 30px;
   padding-top: 20px;
   background-image: url(${SlideBackground});
 `

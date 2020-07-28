@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+import { Whatsapp as wp } from '@styled-icons/fa-brands/Whatsapp';
+import { Instagram as insta} from '@styled-icons/fa-brands/Instagram';
+
 export const Container = styled.div`
   flex: 1;
   display: flex;
@@ -32,17 +35,19 @@ export const TextDescription = styled.p`
 `;
 
 export const BadgeLogo = styled.div`
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  background: #282a40;
+  background: #0195D3;
   margin: -32px 0 8px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const BadgeText = styled.p`
   color: #fff;
   font-size: 16px;
-  text-align: center;
 `;
 
 export const ContactTitle = styled.h1`
@@ -52,8 +57,31 @@ export const ContactTitle = styled.h1`
   margin-bottom: 25px;
 `;
 
-export const Buttons = styled.div`
+export const SocialButtons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
 `;
+
+export const SocialLink = styled.a`
+  padding: 10px;
+  background: ${props => props.color};
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 20px;
+  transition: 0.4s background;
+
+  &:hover {
+    background: #0195D3
+  }
+`
+
+export const Whatsapp = styled(wp)`
+  width: 40px;
+  color: #fff;
+
+`
+export const Instagram = styled(insta)`
+  width: 40px;
+  color: #fff;
+`

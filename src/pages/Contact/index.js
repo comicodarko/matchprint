@@ -1,7 +1,6 @@
 import React from 'react';
 
 import NavBar from '../../components/NavBar';
-
 import {
   Container,
   Content,
@@ -11,7 +10,10 @@ import {
   BadgeLogo,
   BadgeText,
   ContactTitle,
-  Buttons,
+  SocialButtons,
+  SocialLink,
+  Whatsapp,
+  Instagram
 } from './styled';
 
 export default function Contact() {
@@ -41,10 +43,14 @@ export default function Contact() {
 
           <ContactTitle>Fale Conosco!</ContactTitle>
 
-          <Buttons>
-            <Title>MP</Title>
-            <Title>MP</Title>
-          </Buttons>
+          <SocialButtons>
+            <SocialLink href="#" color="#25D366"> 
+              <Whatsapp />
+            </SocialLink>
+            <SocialLink href="#" color="#f00075">
+             <Instagram />
+            </SocialLink>
+          </SocialButtons>
 
         </Content>
       </Container>
