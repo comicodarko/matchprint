@@ -13,8 +13,8 @@ export default () => {
       <div>
         <S.NavLink to="/">Home</S.NavLink>
         <S.NavLink to="" >Sobre</S.NavLink>
-        <S.NavLink to="" >Produtos</S.NavLink>
         <S.NavLink to="" >Depoimentos</S.NavLink>
+        <S.NavLink to="" >Produtos</S.NavLink>
         <S.NavLink to="/contato" >Contato</S.NavLink>
       </div>
     </S.NavBar>

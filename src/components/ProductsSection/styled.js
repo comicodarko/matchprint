@@ -12,6 +12,7 @@ export const Title = styled.h1`
   font-size: 3em;
   width: 210px;
   margin: auto;
+  padding-bottom: 5px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
   color: #fff;
@@ -21,7 +22,7 @@ export const Title = styled.h1`
     );
   background-position: 90px 100%;
   background-repeat: repeat-x;
-  background-size: 1px 1px;
+  background-size: 1px 2px;
 
 `
 

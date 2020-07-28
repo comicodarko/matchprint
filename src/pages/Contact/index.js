@@ -15,6 +15,7 @@ import {
   Whatsapp,
   Instagram
 } from './styled';
+import Footer from '../../components/Footer';
 
 export default function Contact() {
   return (
@@ -54,6 +55,7 @@ export default function Contact() {
 
         </Content>
       </Container>
+      <Footer />
     </>
   );
 }
