@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 import { ArrowBoldUp } from '@styled-icons/entypo/ArrowBoldUp';
 
 export const Footer = styled.footer`
-  background: #3D4351;
+  background: #202125;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 30px;
+  border-top: 2px solid #0195D3;
+  padding-top: 10px;
+  padding-bottom: 10px;
 `
 
 export const FooterNav = styled.nav`
@@ -39,17 +42,17 @@ export const FooterLink = styled(Link)`
 `
 
 export const FooterLogo = styled.img`
-  background: #202125;
   padding: 15px;
-  border-radius: 10px;
-  margin-top: -120px;  
+  border-radius: 10px; 
 `
 
 export const FooterArea = styled.div`
   display: flex;
   flex-direction: column;
   width: 300px;
-  background: #fff;
+  align-items: center;
+  color: #fafafa;
+  font-size: 0.8em;
 `
 
 export const Up = styled(ArrowBoldUp)`
