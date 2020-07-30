@@ -7,11 +7,15 @@ export const Container = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 `;
 
 export const Content = styled.div`
-  margin-top: 50px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Title = styled.h1`
@@ -21,16 +25,21 @@ export const Title = styled.h1`
 `;
 
 export const DescriptionView = styled.div`
-  width: 30%;
+  min-width: 300px;
+  max-width: 400px;
   background: #fff2;
   padding: 15px 25px;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 25px;
   border-radius: 20px;
-  margin: 20px 0 20px 33.5%;
+  border: 2px solid #0195D3;
 `;
 
 export const TextDescription = styled.p`
   color: #fff;
-  font-size: 16px;
+  font-size: 1.2em;
   text-align: center;
 `;
 

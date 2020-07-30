@@ -22,6 +22,7 @@ export const FooterNav = styled.nav`
 export const FooterLink = styled(Link)`
   text-decoration: none;
   padding: 5px;
+  padding-left: 10px;
   width: 120px;
   margin-top: 5px;
   margin-bottom: 5px;
