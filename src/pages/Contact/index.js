@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
 import NavBar from '../../components/NavBar';
+import MobileNav from '../../components/NavBar/MobileNav';
 import {
   Container,
   Content,
@@ -18,9 +19,37 @@ import {
 import Footer from '../../components/Footer';
 
 export default function Contact() {
+
+  function useWindowSize() {
+  
+    const [windowSize, setWindowSize] = useState({
+      width: 0,
+    });
+
+    useEffect(() => {
+      function handleResize() {
+        setWindowSize({
+          width: window.innerWidth,
+        });
+      }
+
+      window.addEventListener("resize", handleResize);
+      
+      handleResize();
+      return () => window.removeEventListener("resize", handleResize);
+  
+    }, []);
+
+    return windowSize;
+  }
+
+  const size = useWindowSize();
   return (
     <>
-      <NavBar />
+      {size.width < 700
+      ? <MobileNav />
+      : <NavBar />
+      }
 
       <Container>
         <Content>
@@ -33,12 +62,9 @@ export default function Contact() {
             </BadgeLogo>
 
             <TextDescription>
-              Nós somos uma empresa revolucionária em Recife que tem pronto
-              atendimento para país, nossos profissionais possuem mais de 30 anos
-              de experiência. Experiências que se somam para fornecer toda a qualidade
-              e segurança que você cliente merece. Superando as suas expectativas e
-              solucionando com inovação e dedicação a ação necessária para o sucesso
-              da sua empresa.
+            Solicite uma visita de nosso profissional e poderemos imprimir ou desenvolver o
+            seu projeto customizado, superando as suas expectativas e solucionando com inovação e dedicação a ação
+            necessária para o sucesso da sua empresa.
             </TextDescription>
           </DescriptionView>
 

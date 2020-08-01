@@ -49,11 +49,12 @@ export const MenuMobile = styled.div`
 export const MobileLink = styled(Link)`
   position: relative;
   text-decoration: none;
-  padding: 5px;
   padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 5px;
   width: 120px;
   margin: 5px;
-  margin-top: 15px;
+  margin-top: 5px;
   color: #fff;
   transition: 0.3s background;
   background:

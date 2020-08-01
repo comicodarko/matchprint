@@ -29,9 +29,9 @@ export default function Footer() {
         <strong>Copyright © 2020 MATCHPRINT</strong>
       </S.FooterArea>
 
-      <S.FooterArea>
+      {/* <S.FooterArea>
         Parceiros
-      </S.FooterArea>
+      </S.FooterArea> */}
     </S.Footer>
   )
 }

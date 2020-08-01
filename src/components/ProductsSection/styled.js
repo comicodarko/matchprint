@@ -28,18 +28,26 @@ export const Title = styled.h1`
 
 export const Card = styled.div`
   max-width: 450px; 
-  min-width: 350px;
+  min-width: 300px;
   background: #0195D3;
   margin: 20px;
   margin-bottom: 40px;
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
+
+  @media(max-width: 320px) {
+    border-radius: 0;
+  }
 `
 
 export const CardImg = styled.img`
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
+  @media(max-width: 320px) {
+    border-radius: 0;
+  }
 `
 
 export const CardTitleArea = styled.div`
@@ -56,4 +64,9 @@ export const CardTitle = styled.h1`
   color: #fafafa;
   line-height: 55px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+
+  @media(max-width: 420px) {
+    font-size: 1.7em;
+  }
 `
