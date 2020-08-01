@@ -7,15 +7,15 @@ export default function Footer() {
   return(
     <S.Footer>
       <S.FooterNav>
-        <S.FooterLink>
+        <S.FooterLink as="a" href="#begin">
           Sobre
         </S.FooterLink>
 
-        <S.FooterLink>
+        <S.FooterLink as="a" href="/#clients">
           Depoimentos
         </S.FooterLink>
 
-        <S.FooterLink>
+        <S.FooterLink as="a" href="/#products">
           Produtos
         </S.FooterLink>
 

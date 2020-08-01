@@ -5,6 +5,14 @@ const GlobalStyles = createGlobalStyle`
     v2.0 | 20110126
     License: none (public domain)
   */
+  
+  html{
+    scroll-behavior: smooth;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
 
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -36,7 +44,7 @@ const GlobalStyles = createGlobalStyle`
     background: #202125;
     font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    overflow-x: hidden;
+    position: relative;
   }
   ol, ul {
     list-style: none;

@@ -13,7 +13,7 @@ import Projetos from '../../images/products/projetos.jpg';
 export default function ProductsSection() {
   return (
     <>
-      <S.Title>Produtos</S.Title>
+      <S.Title id="products">Produtos</S.Title>
       <S.ProductsContainer>
 
         <S.Card>

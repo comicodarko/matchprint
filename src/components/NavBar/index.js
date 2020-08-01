@@ -6,15 +6,14 @@ import Logo from '../../images/MPlogo.png';
 
 export default () => {
   return(
-    <S.NavBar>
+    <S.NavBar id="begin">
       <Link to="/">
         <img src={Logo} alt="MatchPrint"/>
       </Link>  
-      <div>
+      <div id="menu">
         <S.NavLink to="/">Home</S.NavLink>
-        <S.NavLink to="" >Sobre</S.NavLink>
-        <S.NavLink to="" >Depoimentos</S.NavLink>
-        <S.NavLink to="" >Produtos</S.NavLink>
+        <S.NavLink as="a" href="/#clients" >Depoimentos</S.NavLink>
+        <S.NavLink as="a" href="/#products" >Produtos</S.NavLink>
         <S.NavLink to="/contato" >Contato</S.NavLink>
       </div>
     </S.NavBar>

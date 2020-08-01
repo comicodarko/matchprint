@@ -6,15 +6,13 @@ export const Footer = styled.footer`
   background: #202125;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 30px;
   border-top: 2px solid #0195D3;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;  
 `
 
 export const FooterNav = styled.nav`
-  width: 300px;
   display: flex;
   flex-direction: column;
 `
@@ -44,14 +42,20 @@ export const FooterLink = styled(Link)`
 `
 
 export const FooterLogo = styled.img`
+  display: flex;
   padding: 15px;
   border-radius: 10px; 
+  min-width: 100px;
+  max-width: 300px;
+
+  @media(max-width: 500px) {
+    width: 220px;
+  }
 `
 
 export const FooterArea = styled.div`
   display: flex;
   flex-direction: column;
-  width: 300px;
   align-items: center;
   color: #fafafa;
   font-size: 0.8em;

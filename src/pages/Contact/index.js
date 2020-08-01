@@ -54,7 +54,7 @@ export default function Contact() {
       <Container>
         <Content>
           <Title>MatchPrint</Title>
-
+          
           <DescriptionView>
 
             <BadgeLogo>

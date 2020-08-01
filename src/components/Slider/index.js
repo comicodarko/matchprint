@@ -49,7 +49,7 @@ export default class CustomArrows extends Component {
       swipeToSlide: true,
     }
     return (
-      <S.SlideContainer>
+      <S.SlideContainer id="clients">
           <Slider {...settings}>
             <S.SlidePage>
               <S.SlideImage src={LogoMetalux}/>

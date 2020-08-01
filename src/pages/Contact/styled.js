@@ -22,6 +22,7 @@ export const Title = styled.h1`
   color: #fff;
   font-size: 28px;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 `;
 
 export const DescriptionView = styled.div`
@@ -30,8 +31,8 @@ export const DescriptionView = styled.div`
   background: #fff2;
   padding: 15px 25px;
   margin-top: 25px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 25px;
   border-radius: 20px;
   border: 2px solid #0195D3;

@@ -40,7 +40,7 @@ export default function Home() {
       ? <MobileNav />
       : <NavBar />
       }
-      <AboutSection />
+      <AboutSection/>
       <SliderClients />
       <ProductsSection />
       <Footer />

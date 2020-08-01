@@ -25,7 +25,7 @@ const MobileNav = () => {
 
   return (
     <>
-      <NavBar>
+      <NavBar id="begin">
       <Link to="/">
         <img src={Logo} alt="MatchPrint"/>
       </Link>  
@@ -43,13 +43,13 @@ const MobileNav = () => {
       </NavBar>
       <MenuMobile id="MenuMobile">
 
-        <MobileLink>Sobre</MobileLink>
+        <MobileLink as="a" href="/#begin">Sobre</MobileLink>
 
-        <MobileLink>Depoimentos</MobileLink>
+        <MobileLink as="a" href="/#clients">Depoimentos</MobileLink>
         
-        <MobileLink>Produtos</MobileLink>
+        <MobileLink as="a" href="/#products">Produtos</MobileLink>
 
-        <MobileLink>Contato</MobileLink>
+        <MobileLink to="/contato">Contato</MobileLink>
       
       </MenuMobile>
     </> 
