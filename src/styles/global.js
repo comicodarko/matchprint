@@ -36,6 +36,7 @@ const GlobalStyles = createGlobalStyle`
     background: #202125;
     font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    overflow-x: hidden;
   }
   ol, ul {
     list-style: none;

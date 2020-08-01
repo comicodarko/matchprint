@@ -27,8 +27,8 @@ export const Title = styled.h1`
 `
 
 export const Card = styled.div`
-  width: 450px;
-  height: 310px; 
+  max-width: 450px; 
+  min-width: 350px;
   background: #0195D3;
   margin: 20px;
   margin-bottom: 40px;
